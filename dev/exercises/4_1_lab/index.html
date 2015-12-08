@@ -43,12 +43,7 @@
             </div>
           </div>
           <section class="main-content-area">
-            <div class="trial-warning">
-            </div>
-
-            <div class="cta-boxes col-xs-12">
-              <div class="row cta-boxes-target">
-              </div>
+            <div class="target">
             </div>
           </section>
         </div>
@@ -56,21 +51,12 @@
     </div>
 
     <script id="trial-tpl" type="text/template">
-      <div class="trial-warning-container col-xs-10">
+      <div class="trial-warning-container col-xs-9">
         <h5><img src="img/<%= warning_img %>" alt="<%= img_alt %>"><span class="trial-txt">Your trial ends in <%= trial_days_left %> days!</span></h5>
         <p>Feel free to keep testing Infer <a href="<%= subscribe_link %>">Subscibe Now</a></p>
       </div>
     </script>
     
-    <script id="cta-box-tpl" type="text/template">      
-      <div class="cta-single-box col-xs-3">
-        <button class="remove">x</button>
-        <img class="cta-box-img" src="img/<%= img_src %>" alt="<%= img_alt %>">
-        <h5 class="cta-title"><%= cta_title %></h5>
-        <p class="cta-caption"><%= cta_caption %></p>
-      </div>
-    </script>
-
     <!-- build:js js/jquery.min.js -->
       <script src="../bower_components/jquery/dist/jquery.js"></script>
     <!-- /build -->
